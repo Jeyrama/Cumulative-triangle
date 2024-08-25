@@ -14,3 +14,6 @@ Imagine a triangle of numbers which follows this pattern:
 Given N, return the sum of all numbers on the Nth Row:
   1 <= N <= 10,000
 */
+
+
+// Solution
