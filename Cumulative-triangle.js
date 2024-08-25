@@ -21,3 +21,17 @@ Given N, return the sum of all numbers on the Nth Row:
 const cumulativeTriangle = n => n * (n * n + 1) / 2;
 
 // or
+
+function cumulativeTriangle(n) {
+  let number = 0
+  let total = []
+  
+   for (let i=n-1; i>0; i--){
+     number += i 
+   }
+   for (let i=0; i<n; i++){
+     number += 1
+     total.push(number)
+   }
+   return total.reduce((a, b) => {return a + b}, 0)
+}
