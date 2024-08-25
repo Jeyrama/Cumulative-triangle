@@ -19,3 +19,5 @@ Given N, return the sum of all numbers on the Nth Row:
 // Solution
 
 const cumulativeTriangle = n => n * (n * n + 1) / 2;
+
+// or
